@@ -1,4 +1,11 @@
+#venv
 .venv/
 env/
 venv/
 ENV/
+#database
+db.sqlite3
+
+# Python Cache
+**/__pycache__/
+*.pyc
