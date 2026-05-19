@@ -23,6 +23,6 @@ def translator_app(request):
         'output_text': output_text,
         'input_text': input_text,
         'select_input':select_input,
-        'select_output': select_output 
+        'select_output': select_output ,
     }
     return render(request,'index.html',context)
